@@ -174,7 +174,7 @@ INSERT INTO duvida (aluno_fk, assunto_fk, titulo, descricao, status) VALUES
 (6, 11, 'Diferença entre "mas" e "mais"', 'Quando usar cada um?', 'respondida'),
 (7, 9, 'Potência de base negativa', 'O que acontece com expoente par ou ímpar?', 'respondida'),
 (8, 2, 'O que é velocidade média?', 'Não entendi como calcular velocidade média em física.', 'respondida'),
-(9, 12, 'O que foi a Revolução Francesa?', 'Resumo simples sobre a Revolução Francesa.', 'respondida'), -- CORRIGIDO
+(9, 12, 'O que foi a Revolução Francesa?', 'Resumo simples sobre a Revolução Francesa.', 'respondida'),
 (10, 1, 'Coordenadas geográficas', 'Como identificar latitude e longitude?', 'respondida'),
 (11, 3, 'Diferença entre DNA e RNA', 'Quais as principais diferenças entre DNA e RNA?', 'respondida'),
 (12, 4, 'O que é ética?', 'Não entendi o conceito de ética na filosofia.', 'respondida'),
@@ -189,7 +189,7 @@ INSERT INTO resposta (duvida_fk, professor_fk, texto_resposta) VALUES
 (6, 11, '"Mas" é conjunção adversativa. "Mais" é advérbio de intensidade. Ex: Eu quero mais.'),
 (7, 9, 'Potência com expoente par dá resultado positivo, com ímpar mantém o sinal da base.'),
 (8, 2, 'Velocidade média é calculada dividindo a distância total pelo tempo total. Ex: 100 km / 2h = 50 km/h.'),
-(9, 12, 'A Revolução Francesa foi um marco histórico iniciado em 1789 que mudou a estrutura política da França.'), -- CORRIGIDO
+(9, 12, 'A Revolução Francesa foi um marco histórico iniciado em 1789 que mudou a estrutura política da França.'),
 (10, 1, 'Latitude indica a posição Norte-Sul e longitude a posição Leste-Oeste no globo terrestre.'),
 (11, 3, 'DNA é fita dupla e contém informações genéticas. RNA é fita simples e ajuda na síntese de proteínas.'),
 (12, 4, 'Ética é o estudo do que é certo ou errado. Exemplo: respeitar os outros é uma atitude ética.'),
